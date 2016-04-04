@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<robot name="affordance_environment">
+  <link name="link_ad30171c-fa94-11e5-b6ae-6c4008ad4210">
+    <visual>
+      <origin xyz="1.01058421994 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <box size="0.25 20.0 10.0"/>
+      </geometry>
+      <material name="material_ad30171c-fa94-11e5-b6ae-6c4008ad4210">
+        <color rgba="1.0 1.0 1.0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.01058421994 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <box size="0.25 20.0 10.0"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_bed0c16b-fa94-11e5-b262-6c4008ad4210">
+    <visual>
+      <origin xyz="0.429450211946 -2.95931406359 0.0" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <box size="0.9 0.9 10.0"/>
+      </geometry>
+      <material name="material_bed0c16b-fa94-11e5-b262-6c4008ad4210">
+        <color rgba="1.0 1.0 1.0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.429450211946 -2.95931406359 0.0" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <box size="0.9 0.9 10.0"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_fd197628-fa95-11e5-9ddd-6c4008ad4210">
+    <visual>
+      <origin xyz="0.0 0.0 -0.325665970199" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <cylinder radius="0.03" length="0.5"/>
+      </geometry>
+      <material name="material_fd197628-fa95-11e5-9ddd-6c4008ad4210">
+        <color rgba="1.0 1.0 1.0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 -0.325665970199" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <cylinder radius="0.03" length="0.5"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_83097f33-fa94-11e5-90b1-6c4008ad4210">
+    <visual>
+      <origin xyz="-2.34673532061 -0.00240840325479 0.0" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <box size="0.25 20.0 10.0"/>
+      </geometry>
+      <material name="material_83097f33-fa94-11e5-90b1-6c4008ad4210">
+        <color rgba="1.0 1.0 1.0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.34673532061 -0.00240840325479 0.0" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <box size="0.25 20.0 10.0"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_4737322b-fa96-11e5-ace5-6c4008ad4210">
+    <visual>
+      <origin xyz="-0.659150316075 -8.416875675 3.55195207851" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <box size="3.0 0.9 3.0"/>
+      </geometry>
+      <material name="material_4737322b-fa96-11e5-ace5-6c4008ad4210">
+        <color rgba="1.0 1.0 1.0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.659150316075 -8.416875675 3.55195207851" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <box size="3.0 0.9 3.0"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_e68c7c63-fa94-11e5-8e95-6c4008ad4210">
+    <visual>
+      <origin xyz="-1.78283720096 -5.3749943083 1.7763568394e-15" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <box size="0.9 0.9 10.0"/>
+      </geometry>
+      <material name="material_e68c7c63-fa94-11e5-8e95-6c4008ad4210">
+        <color rgba="1.0 1.0 1.0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.78283720096 -5.3749943083 1.7763568394e-15" rpy="0.0 -0.0 0.0"/>
+      <geometry>
+        <box size="0.9 0.9 10.0"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
